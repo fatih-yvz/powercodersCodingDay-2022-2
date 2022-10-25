@@ -120,10 +120,10 @@ function checkAnswer(e){
     if(userAnswer == realAnswer){
         score++
         e.style.backgroundColor = 'green';
-        window.alert('Next Question')
+        window.alert('Great!,Click Next')
     }else{
         e.style.backgroundColor = 'red';
-        window.alert('oopppss')
+        window.alert('Oppss,Click Next');
     }    
 }
 
